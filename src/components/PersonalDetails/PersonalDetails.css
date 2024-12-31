@@ -1,0 +1,15 @@
+.person-details {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.person-details h2 {
+  margin-top: 0;
+}
+
+.person-details p {
+  margin: 5px 0;
+}

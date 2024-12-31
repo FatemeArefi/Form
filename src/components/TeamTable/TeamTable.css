@@ -1,0 +1,66 @@
+.team-table {
+  margin: 20px;
+  text-align: center;
+}
+
+.team-table .actions {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-right: 55px;
+}
+
+.team-table .actions button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.team-table .actions input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  height: 20px;
+}
+
+.team-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.team-table th,
+.team-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.team-table th {
+  background-color: #f2f2f2;
+}
+
+.team-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.team-table input {
+  width: 100%;
+  padding: 5px;
+}
+.create {
+  background-color: #c60026;
+  color: #f1f1f1;
+  border-radius: 8px;
+  font-size: 16px;
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  right: 35px;
+}
+.team-table a {
+  text-decoration: none;
+  color: black;
+}
+.skill-badge {
+  display: inline-block;
+}

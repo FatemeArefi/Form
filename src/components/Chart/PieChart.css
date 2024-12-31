@@ -1,0 +1,8 @@
+.fixed-circle {
+  max-width: 10px !important;
+  height: 10px !important;
+}
+.circle canvas {
+  width: 40% !important;
+  height: 40% !important;
+}

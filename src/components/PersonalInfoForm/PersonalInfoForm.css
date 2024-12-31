@@ -1,0 +1,32 @@
+.personal-info-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.personal-info-form table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.personal-info-form td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.personal-info-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.form-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  padding: 8px 12px;
+}
