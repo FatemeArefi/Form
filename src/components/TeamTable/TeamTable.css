@@ -64,3 +64,11 @@
 .skill-badge {
   display: inline-block;
 }
+.team-table h2 {
+  margin-bottom: 20px;
+}
+.h2 {
+  left: 0;
+  padding-right: 900px;
+  padding-bottom: 1px;
+}
