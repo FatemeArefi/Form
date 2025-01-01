@@ -87,7 +87,6 @@ const TeamTable = () => {
                   </span>
                 ))}
               </td>
-
               <td>
                 <button onClick={() => handleEdit(person)}>
                   <svg

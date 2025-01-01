@@ -30,3 +30,39 @@
 .form-buttons button {
   padding: 8px 12px;
 }
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .personal-info-form {
+    padding: 18px;
+  }
+  .personal-info-form td {
+    padding: 9px;
+  }
+  .personal-info-form input {
+    padding: 7.5px;
+  }
+  .form-buttons {
+    justify-content: space-around;
+  }
+  .form-buttons button {
+    padding: 10px 14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .personal-info-form {
+    padding: 20px;
+  }
+  .personal-info-form td {
+    padding: 10px;
+  }
+  .personal-info-form input {
+    padding: 8px;
+  }
+  .form-buttons {
+    justify-content: space-between;
+  }
+  .form-buttons button {
+    padding: 8px 12px;
+  }
+}

@@ -104,3 +104,79 @@ h5 {
   color: #fff;
   width: 180px;
 }
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .person-details {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 21px;
+    margin-bottom: 40px;
+  }
+  h5 {
+    padding-top: 25px;
+    margin-bottom: 40px;
+  }
+  .person-details form {
+    gap: 30px;
+  }
+  .person-details input,
+  .person-details select,
+  .person-details .skills-input {
+    width: 90%;
+    padding: 9px 9px 9px 18px;
+  }
+  .person-details .buttons {
+    justify-content: flex-end;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .person-details {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 21px;
+    margin-bottom: 40px;
+  }
+  h5 {
+    padding-top: 25px;
+    margin-bottom: 40px;
+  }
+  .person-details form {
+    gap: 30px;
+  }
+  .person-details input,
+  .person-details select,
+  .person-details .skills-input {
+    width: 90%;
+    padding: 9px 9px 9px 18px;
+  }
+  .person-details .buttons {
+    justify-content: flex-end;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .person-details {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  h5 {
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .person-details form {
+    gap: 35px;
+  }
+  .person-details input,
+  .person-details select,
+  .person-details .skills-input {
+    width: 80%;
+    padding: 10px 10px 10px 20px;
+  }
+  .person-details .buttons {
+    justify-content: flex-end;
+  }
+}

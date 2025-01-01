@@ -72,3 +72,68 @@
   padding-right: 900px;
   padding-bottom: 1px;
 }
+
+@media only screen and (max-width: 600px) {
+  .team-table {
+    margin: 10px;
+  }
+  .team-table .actions {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+  }
+  .team-table .actions button,
+  .team-table .actions input[type="text"] {
+    width: 100%;
+    margin-right: 0;
+  }
+  .create {
+    width: 100%;
+    position: static;
+  }
+  .team-table table {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .team-table {
+    margin: 15px;
+  }
+  .team-table .actions {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 25px;
+  }
+  .team-table .actions button,
+  .team-table .actions input[type="text"] {
+    width: auto;
+  }
+  .create {
+    width: 120px;
+    right: 25px;
+  }
+  .team-table table {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .team-table {
+    margin: 20px;
+  }
+  .team-table .actions {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 55px;
+  }
+  .team-table .actions button,
+  .team-table .actions input[type="text"] {
+    width: auto;
+  }
+  .create {
+    width: 150px;
+    right: 35px;
+  }
+  .team-table table {
+    font-size: 16px;
+  }
+}
